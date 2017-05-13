@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_settings.png",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\drawable-hdpi\\ic_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_name.png",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
+    }
+]

@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.example.tcalc.MainActivity" >
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="280dp"
+		android:layout_height="wrap_content"
+		android:text="@string/hello_world" />
+
+	
+ 	<RadioGroup
+        android:id="@+id/rgOperation"
+        android:layout_alignLeft="@+id/textView1"
+		android:layout_below="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+        
+		<RadioButton
+			android:id="@+id/rdCheck"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/tvFarenheit"
+			android:layout_marginBottom="17dp"
+			android:text="@string/check" />
+
+		<RadioButton
+			android:id="@+id/rdCalc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignBaseline="@+id/radioButton1"
+			android:layout_alignBottom="@+id/radioButton1"
+			android:layout_toRightOf="@+id/edFarenheit"
+			android:text="@string/calculate" />
+	</RadioGroup>
+
+	<LinearLayout
+		android:id="@+id/llData"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView1"
+		android:layout_below="@+id/rgOperation"
+		android:layout_marginTop="20dp"
+		android:orientation="horizontal">"
+		
+		
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="19dp"
+		android:orientation="vertical" >
+		
+		<EditText
+		    android:id="@+id/edFarenheit"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:enabled="false"
+		    android:inputType="numberSigned|numberDecimal" >
+
+		<requestFocus />
+		</EditText>
+		
+		<TextView
+		android:id="@+id/tvFarenheit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/edFarenheit"
+		android:text="@string/Farenheit" />
+		
+		</LinearLayout>
+
+	<Button
+		android:id="@+id/btGo"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:enabled="false"
+		android:text="@string/go" />
+	
+		<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="19dp"
+		android:orientation="vertical" >
+	
+		<EditText
+		    android:id="@+id/edCelcius"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:enabled="false"
+		    android:inputType="numberSigned|numberDecimal" />
+
+		<TextView
+		android:id="@+id/tvCelcius"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/Celcius" />
+		</LinearLayout>
+		
+	</LinearLayout>
+
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="200dp"
+	    android:layout_alignBottom="@+id/llData"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="36dp"
+	    android:scaleType="fitXY"
+	    android:src="@drawable/convert" />
+
+</RelativeLayout>

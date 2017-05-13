@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\menu\\context.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\menu\\context.xml"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\menu\\help.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\menu\\help.xml"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

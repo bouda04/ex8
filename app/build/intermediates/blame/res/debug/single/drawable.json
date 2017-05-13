@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\convert.jpg",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\drawable\\convert.jpg"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\type_float.png",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\drawable\\type_float.png"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\decimal_place.png",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\drawable\\decimal_place.png"
+    },
+    {
+        "merged": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\symbol_help.png",
+        "source": "C:\\Users\\bouda04\\AndroidStudioProjects\\ex8\\app\\src\\main\\res\\drawable\\symbol_help.png"
+    }
+]
